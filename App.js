@@ -9,9 +9,9 @@ import {TrackerScreen} from './Screens/TrackerScreen'
 const Stack=createStackNavigator()
 export default function App() {
   return (
-    
+
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="home" screenOption={{headerShown:false}}>
+      <Stack.Navigator initialRouteName="Home" screenOption={{headerShown:false}}>
       <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Meteor" component={MeteorScreen} />
         <Stack.Screen name="Tracker" component={TrackerScreen} />
